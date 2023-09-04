@@ -70,6 +70,15 @@ nav ul {
     text-decoration: none;
     color: #e1ad01;
 }
+
+.nav-right {
+   
+}
+
+.custom-toggler {
+    color: #e1ad01;
+}
+
 /* Hero section styles */
 .hero {
     background-image: url('../images/bikePic.jpg');
@@ -115,6 +124,7 @@ nav ul {
     text-transform: uppercase;
     text-decoration: none;
     transition: background-color 0.3s;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
     .cta-button:hover {
@@ -160,6 +170,7 @@ nav ul {
 
 /* Contact section styles */
 .contact-section {
+    margin-bottom: 4rem;
     padding: 4rem 0;
     text-align: center;
     background-color: lightgray;
